@@ -1,0 +1,1 @@
+document.write('this is sa-webpack-zip-plugin test');

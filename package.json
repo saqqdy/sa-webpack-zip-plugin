@@ -1,0 +1,68 @@
+{
+  "_from": "sa-webpack-zip-plugin@^0.1.6",
+  "_id": "sa-webpack-zip-plugin@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-ierMciBA51zeHDHm8NsPLnbxyVbt4td+ozqyBTo3107dwHhaSMVOwkMas7ulOL/v48CtK4XX7mUKnXOI1dFkQQ==",
+  "_location": "/sa-webpack-zip-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "sa-webpack-zip-plugin@^0.1.6",
+    "name": "sa-webpack-zip-plugin",
+    "escapedName": "sa-webpack-zip-plugin",
+    "rawSpec": "^0.1.6",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.6"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/sa-webpack-zip-plugin/-/sa-webpack-zip-plugin-0.1.6.tgz",
+  "_shasum": "e47648018192421c7f5704d1f7ea552ebf72326e",
+  "_spec": "sa-webpack-zip-plugin@^0.1.6",
+  "_where": "/Users/saqqdy/www/kuai365/hxy/mp1",
+  "author": {
+    "name": "yuyi"
+  },
+  "bugs": {
+    "url": "https://github.com/saqqdy/sa-webpack-zip-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-symbols": "0.0.4"
+  },
+  "deprecated": false,
+  "description": "zip your dist after webpack builds",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-latest": "^6.24.0",
+    "eslint": "^3.19.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "webpack": "^2.3.2"
+  },
+  "homepage": "https://github.com/saqqdy/sa-webpack-zip-plugin#readme",
+  "keywords": [
+    "webpack",
+    "zip",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "sa-webpack-zip-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saqqdy/sa-webpack-zip-plugin.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./index.js",
+    "test": "webpack"
+  },
+  "version": "0.1.6"
+}
